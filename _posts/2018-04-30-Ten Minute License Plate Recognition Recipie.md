@@ -21,9 +21,9 @@ During my time at @persistentsystems, in a hackathon, one of the projects was a 
 Aha, I knew Google had OCR in its vision API. I knew I had $300 for my experiments, which I wanted to use before losing and most importantly I knew Regular Expressions.
 Here is briefly what I did,
 
-  [x] Got my API keys.
-  [x] Wrote a Python script 
-  [x] Fine tuned the OCR output with Regular expressions to get License plate details.
+  1.Got my API keys.
+  2.Wrote a Python script 
+  3.Fine tuned the OCR output with Regular expressions to get License plate details.
 
 I went on to deploy this also on a Raspberry Pi, and automated it to take snapshots using vehicle detection using OpenCV (Will post it with details). This was done in 10 days, but the first three steps, yes, you can do it in under 10 minutes.
 >See it for yourself!
