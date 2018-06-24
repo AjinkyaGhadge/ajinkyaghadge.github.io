@@ -22,7 +22,9 @@ Aha, I knew Google had OCR in its vision API. I knew I had $300 for my experimen
 Here is briefly what I did,
 
   1.Got my API keys.
+  
   2.Wrote a Python script 
+  
   3.Fine tuned the OCR output with Regular expressions to get License plate details.
 
 I went on to deploy this also on a Raspberry Pi, and automated it to take snapshots using vehicle detection using OpenCV (Will post it with details). This was done in 10 days, but the first three steps, yes, you can do it in under 10 minutes.
