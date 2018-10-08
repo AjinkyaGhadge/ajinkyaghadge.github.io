@@ -33,11 +33,11 @@ To start with, classification problems are computationally less intensive than d
 
 Yolo and SSD are pretty good when it comes to frame-rates.
 
-![Frame-Rate highest and Lowest Reported](frame-rate.png)
+![Frame-Rate highest and Lowest Reported](https://cdn-images-1.medium.com/max/1250/1*EQKFp_c6jMYcDZbIwbEOzA.png)
 
 MobilNet has particularly low memory consumption too.
 
-![Frame-Rate highest and Lowest Reported](memory.png)
+![Frame-Rate highest and Lowest Reported](https://cdn-images-1.medium.com/max/1000/1*yFgDeWPB68YncH4KrQL2eQ.png)
 
 An edge device like NCS is limited by Memory, and also has limted compute as compared to GPU(s). In case of classification problems, i obtained very good results by using optimized architectures and using OpenVino. 
 
@@ -49,5 +49,7 @@ An edge device like NCS is limited by Memory, and also has limted compute as com
 5. Finally use hardware optimizations like OpenVino in case of NCS.(Like TensorRT in Jetson)
 
 A caveat of all this is that often the mAP, mean accuracy and precision of detection is lesser than detection architectures like R-FCN and Faster-RCNN. The accuracy of SqueezeNet and SqueezeNext is also comparable only with AlexNet, and not with more robust CNNs like ResNet and GoogLeNet.
+
+![mAP issues](https://cdn-images-1.medium.com/max/1250/1*GD5Th5eZBMufVFJQjo_5mA.png)
 
 At the time of writing this, i am working on a paper involving comprehensive analysis of frames/sec/watt for the Intel NCS and Jetson TX2, will update this soon.
