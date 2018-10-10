@@ -895,7 +895,7 @@ plt.show()
 ```
 
 
-![png](output_75_0.png)
+![png](/img/output_75_0.png)
 
 
 The above curve looks pretty good. There's no evidence of overtraining, in which the accuracy would continue increasing and the training loss would continue decreasing, but the validation loss would increase. It seems we could have continued training to achieve an even higher accuracy, but since we have the snapshot at iteration 5200 we can still do this with no problem.  
