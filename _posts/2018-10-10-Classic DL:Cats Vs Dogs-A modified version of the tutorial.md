@@ -990,11 +990,11 @@ imgs[1] = img2
 ```
 
 
-![png](output_85_0.png)
+![png](/img/output_85_0.png)
 
 
 
-![png](output_85_1.png)
+![png](/img/output_85_1.png)
 
 
 Now, do the actual classification. The first step is to put the images into the memory allocated for the net. Recall that our batch size for deployment is 100, which is why we defined our "imgs" array to be of size 100. So we could have stacked up to 100 images into the "imgs" array and classified them all at the same time.  
@@ -1106,7 +1106,7 @@ visualize_weights(net, 'conv3', filename='conv2.png')
 
 
 
-![png](output_93_1.png)
+![png](/img/output_93_1.png)
 
 
     (256, 48, 5, 5)
@@ -1116,7 +1116,7 @@ visualize_weights(net, 'conv3', filename='conv2.png')
 
 
 
-![png](output_93_3.png)
+![png](/img/output_93_3.png)
 
 
     (384, 256, 3, 3)
@@ -1126,7 +1126,7 @@ visualize_weights(net, 'conv3', filename='conv2.png')
 
 
 
-![png](output_93_5.png)
+![png](/img/output_93_5.png)
 
 
 ### References
