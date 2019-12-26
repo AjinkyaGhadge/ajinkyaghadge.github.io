@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Ajinkya"
-  avatar           : /assets/images/Ajinkya.jpeg"
+  avatar           : /assets/images/Ajinkya.jpg"
   bio              : "An aspiring polymath, pursuing Master's in Computer Science with a focus on Software Development and Machine Learning. I find abstraction to be deeply intriguing."
   location         : "UMass-Amherst, MA, USA"
   email            : "aghadge@umass.edu"
