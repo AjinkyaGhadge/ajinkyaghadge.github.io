@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ajinkya"
-title_separator          : "-"
+title                    : "Swadhyay"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ajinkya Ghadge"
-description              : ""
+description              : "This is a place where Ajinkya Ghadge, writes about his projects, his tinkering with technology and some interesting things he discovers"
 url                      : "https://ajinkyaghadge.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "AjinkyaGhadge/ajinkyaghadge.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /assets/images/teaser.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true #, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -65,9 +65,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true #, false (default)
 search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : lunr #(default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -107,15 +107,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Ajinkya"
+  avatar           : /assets/images/Ajinkya.jpeg"
+  bio              : "An aspiring polymath, pursuing Master's in Computer Science with a focus on Software Development and Machine Learning. I find abstraction to be deeply intriguing."
+  location         : "UMass-Amherst, MA, USA"
+  email            : "aghadge@umass.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:aghadge@umass.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/AjinkyaGhadge"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -143,7 +143,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/AjinkyaGhadge"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
