@@ -1,14 +1,12 @@
 # main links
 main:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
   - title: "Blog"
-    url: /terms/
+    url: /
   - title: "Projects"
     url: /portfolio/
   - title: "Resume"
     url: /resume/
+  - title: "About"
+    url: /about/
   - title: "Sitemap"
     url: /sitemap/
