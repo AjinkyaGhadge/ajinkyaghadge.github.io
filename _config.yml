@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
 locale                   : "en-US"
@@ -107,30 +107,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ajinkya"
-  avatar           : "/assets/images/michael-rose.jpg" 
-  bio              : "An aspiring polymath, pursuing Master's in Computer Science with a focus on Software Development and Machine Learning. I find abstraction to be deeply intriguing."
-  location         : "UMass-Amherst, MA, USA"
-  email            : "aghadge@umass.edu"
+  name             : "Ajinkya Ghadge"
+  avatar           : "/assets/images/Ajinkya.jpg" 
+  bio              : "Hi I am Ajinkya, I am a Master's in Computer Science at UMass. Not a polymath yet, I am currently focusing on Software Development and Machine Learning."
+  location         : #"UMass-Amherst, MA, USA"
+  email            : #"aghadge@umass.edu"
   links:
+    - label: "CICS-UMass Amherst"
+      icon: "fas fa-graduation-cap"
+      url: "https://www.cics.umass.edu/about/at-a-glance"
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "far fa-envelope"
       url: mailto:aghadge@umass.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "Leetcode"
+      icon: "fas fa-terminal"
+      url: "https://leetcode.com/ghadgeajinkya95/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github-alt"
       url: "https://github.com/AjinkyaGhadge"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/ajinkyaghadge/"
+    - label: "StackOverflow"
+      icon: "fab fa-stack-overflow"
+      url: "https://stackoverflow.com/users/7390497/ajinkya-ghadge"
 
 # Site Footer
 footer:
@@ -150,9 +153,9 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/ajinkyaghadge/"
 
 
 # Reading Files
