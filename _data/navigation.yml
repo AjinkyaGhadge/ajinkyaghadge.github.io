@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: https://ajinkyaghadge.github.io
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /_pages/about.md
   - title: "Blog"
     url: https://mmistakes.github.io/minimal-mistakes/blog/
   - title: "Projects"
