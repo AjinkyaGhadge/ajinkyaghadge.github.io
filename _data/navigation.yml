@@ -7,6 +7,8 @@ main:
   - title: "Blog"
     url: /terms/
   - title: "Projects"
-    url: https://mmistakes.github.io/minimal-mistakes/projects/
+    url: /portfolio/
+  - title: "Resume"
+    url: /resume/
   - title: "Sitemap"
     url: /sitemap/
