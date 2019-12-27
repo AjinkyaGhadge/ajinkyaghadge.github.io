@@ -27,7 +27,7 @@ repository               : "AjinkyaGhadge/ajinkyaghadge.github.io"
 teaser                   : /_data/images/teaser.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/_data/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true #, false (default)
+# breadcrumbs              : true #, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -77,7 +77,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "google-site-verification: google45d10f2a954a102b.html"
+google_site_verification : "google45d10f2a954a102b"
 bing_site_verification   : 
 yandex_site_verification :
 naver_site_verification  :
@@ -101,10 +101,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-155086231-1"
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : true #, false (default)
 
 
 # Site Author
@@ -161,7 +161,7 @@ footer:
 
 
 # Reading Files
-include:
+include: 
   - .htaccess
   - _pages
 exclude:
@@ -297,3 +297,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

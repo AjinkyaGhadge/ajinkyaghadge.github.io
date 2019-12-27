@@ -1,8 +1,0 @@
-I"Ž<ul class="toc__menu">
-  <li><a href="#step-1-remove-theme-files">Step 1: Remove Theme Files</a></li>
-  <li><a href="#step-2-update-gemfile">Step 2: Update Gemfile</a></li>
-  <li><a href="#step-3-run-bundler">Step 3: Run Bundler</a></li>
-  <li><a href="#step-4-install-the-theme">Step 4: Install the Theme</a></li>
-  <li><a href="#step-5-jekyll-new-tweaks">Step 5: jekyll new Tweaks</a></li>
-</ul>
-:ET

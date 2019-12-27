@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Home"
-    url: https://ajinkyaghadge.github.io
+    url: /
   - title: "About"
-    url: /_pages/about.md
+    url: /about/
   - title: "Blog"
-    url: https://mmistakes.github.io/minimal-mistakes/blog/
+    url: /terms/
   - title: "Projects"
     url: https://mmistakes.github.io/minimal-mistakes/projects/
   - title: "Sitemap"
