@@ -29,6 +29,10 @@ published: true
 
 ### Node Class:
 
+Although a tree can be made to be doubly linked, that is both parent and children have connection to each other, here I have chosen a simple one way connected tree.
+
+Other than its value, a single Node has a left child and a right child. 
+
 ```
 class Node:
     def __init__(self,data,left=None,right=None):
@@ -39,13 +43,15 @@ class Node:
 
 ### Implementation
 
-```
-class Node:
-    def __init__(self,data,left=None,right=None):
-        self.data = data
-        self.left = left
-        self.right = right
+#### Insert Method
 
+Inserting into Binary Tree can be done by using recursion. 
+
+1. Check if number > or < or = to the value at a node (starting at root)
+2. If < then apply 1 recursively on left sub-tree, till you find an optimal place as a leaf
+3. If > then apply 1 recursively on right sub-tree, till you find an optimal point in the right sub-tree
+
+```
     def insert(self, data):
         if self.data:
             if data < self.data:
@@ -60,7 +66,12 @@ class Node:
                     self.right.insert(data)
         else:
             self.data = data
-    
+```
+#### Lookup Method
+
+In lookup, find the parent and the node corresponding to a number. The logic is similar to insertion. Recursively check the left and the right sub-trees
+
+```
     def lookup(self,data,parent=None):
         if data<self.data:
             if self.left is None:
@@ -74,17 +85,30 @@ class Node:
                 return self.right.lookup(data,self)
         else:
             return self,parent
+```
 
+Deletion is a slightly different beast. There are following cases that need handling:
+
+1. Delete a leaf node
+2. Delete a node with only one child
+3. Delete a node with two children 
+4. Delete the root node
+
+Deleting the root node is a special case of 3.
+
+Look at the comments to find how each of the following were done.
+
+```
     def delete(self,data):
         a , b = self.lookup(data)
         if (a == None):
             print("data not found")
             return False
-        elif (b == None and a!= None):
-            if a.left == None and a.right == None:
+        elif (b == None and a!= None): # 
+            if a.left == None and a.right == None: #1. Delete a leaf node
                 a.data = None
 
-            if a.left == None and a.right != None:
+            if a.left == None and a.right != None: #2. Delete a node with only one child
                 a = a.right
             if a.left != None and a.right == None:
                 a = a.left
@@ -98,7 +122,7 @@ class Node:
                 a.data = c.data
             return True
         else:
-            if a.data < b.data:
+            if a.data < b.data: # 3. Delete a node with two children 
                 loc = 0
             elif a.data > b.data:
                 loc = 1
@@ -118,7 +142,7 @@ class Node:
                     b.left = a.left
                 elif loc == 1:
                     b.right = a.left
-            if a.left != None and a.right!=None:
+            if a.left != None and a.right!=None: # 4. Delete the root node
                 c = a.right
                 while(c.left!=None and c.right!=None):
                     temp = c
@@ -127,30 +151,8 @@ class Node:
                 a.data = c.data
             return True
 
-                
-root = Node(8)
-root.insert(9)
-root.insert(7)
-root.insert(3)
-root.insert(5)
-a,b = root.lookup(3)
-print(a,b)
-root.delete(3)
-a,b = root.lookup(3)
-print(a,b)
-a,b = root.lookup(8)
-print(a,b)
-root.delete(8)
-a,b = root.lookup(8)
-print(a,b)
 ```
 
-```
-Output:
-<__main__.Node object at 0x7fa894f5e610> <__main__.Node object at 0x7fa894f5e550>
-None None
-<__main__.Node object at 0x7fa894f5e5d0> None
-None None
-```
-
-### 
+Credits:
+* [Laurent Luce's Blog](http://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
+* [Data Structures and Algorithms in Python <sub> M H. Goldwasser, R Tamassia, M T. Goodrich </sub>](https://www.oreilly.com/library/view/data-structures-and/9781118290279/)
