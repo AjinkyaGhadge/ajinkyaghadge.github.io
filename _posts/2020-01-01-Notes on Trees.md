@@ -263,13 +263,13 @@ root.levelorder() #BFS
 
 ```
 Inorder
-3 5 7 8 9 
+5 6 7 10 11  
 Preorder 
-8 7 3 5 9
+10 6 5 7 11 
 Postorder
-9 8 7 5 3
+11 10 7 6 5
 levelorder
-10 11 13 6 7 5
+10 11 6 7 5
 ```
 
 Credits:
