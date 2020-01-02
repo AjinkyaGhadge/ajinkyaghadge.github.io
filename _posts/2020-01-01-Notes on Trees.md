@@ -1,5 +1,5 @@
 ---
-title: A Simple Implementation of Binary Search Tree
+title: Notes on Trees
 subtitle: What better than to build a tree from scratch!
 gh-repo: https://github.com/AjinkyaGhadge/Code_Revision
 gh-badge:
@@ -15,6 +15,25 @@ tags:
   - Binary Search Tree
 published: true
 ---
+# Binary Tree
+
+## Terminology
+
+* **Root** is the topmost node of the tree
+
+* **Edge** is the link between two nodes
+
+* **Child** is a node that has a parent node
+
+* **Parent** is a node that has an edge to a child node
+
+* **Leaf** is a node that does not have a child node in the tree
+
+* **Height** is the length of the longest path to a leaf
+
+* **Depth** is the length of the path to its root
+
+
 # Binary Search Tree
 
 > Binary search tree is also called an ordered binary tree.
@@ -150,9 +169,80 @@ Look at the comments to find how each of the following were done.
                 temp.left = None
                 a.data = c.data
             return True
+```
 
+### Traversals
+
+#### Inorder Traversal
+
+> Inorder traversal, the order is left ---> Node ---> Right
+
+```
+def inorder(self):
+        if self.left is not None:
+            self.left.inorder()
+        print(self.data, end = ' ')
+        
+        if self.right is not None:
+            self.right.inorder()
+```
+
+#### Preorder Traversal
+
+> Inorder traversal, the order is Node ---> Left ---> Right
+
+```
+    def preorder(self):
+        print(self.data, end = ' ')
+       
+        if self.left is not None:
+            self.left.preorder()
+        if self.right is not None:
+            self.right.preorder()
+```
+
+#### Postorder Traversal
+
+> Inorder traversal, the order is Right ---> Node ---> left
+
+```
+    def postorder(self):
+        if self.right is not None:
+            self.right.postorder()
+        print(self.data, end = ' ')
+        
+        if self.left is not None:
+            self.left.postorder()
+```
+
+#### Driver Code
+
+```
+root = Node(8)
+root.insert(9)
+root.insert(7)
+root.insert(3)
+root.insert(5)
+print("Inorder")
+root.inorder()
+print("Preorder")
+root.preorder()
+print("Preorder")
+root.postorder()
+```
+
+### Output
+
+```
+Inorder
+3 5 7 8 9 
+Preorder 
+8 7 3 5 9
+Preorder
+9 8 7 5 3
 ```
 
 Credits:
 * [Laurent Luce's Blog](http://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
 * [Data Structures and Algorithms in Python <sub> M H. Goldwasser, R Tamassia, M T. Goodrich </sub>](https://www.oreilly.com/library/view/data-structures-and/9781118290279/)
+* [BacktoBack SWE: Binary Tree Bootcamp: Full, Complete, & Perfect Trees. Preorder, Inorder, & Postorder Traversal](https://www.youtube.com/watch?v=BHB0B1jFKQc&t=206s)
