@@ -215,20 +215,48 @@ def inorder(self):
             self.left.postorder()
 ```
 
+### BFS and DFS
+
+[Pre,In and Post Order traversal are all Depth-First.](https://www.youtube.com/watch?v=9RHO6jU--GU)
+
+BFS or level order is a traversal where we traverse all elements at a particular level first.
+
+BFS we'll implement here
+
+Core idea is to use a FIFO technique to print all elements on a level everytime.
+
+```
+    def levelorder(self):
+        q = list()
+        if self.data is None:
+            return False
+        if self.data is not None:
+            q.append(self)
+        while(len(q)!=0):
+            temp = q.pop()
+            print(temp.data, end= " ")
+            if temp.left!=None:
+                q.append(temp.left)
+            if temp.right!=None:
+                q.append(temp.right)
+```
+
 #### Driver Code
 
 ```
-root = Node(8)
-root.insert(9)
+root = Node(10)
+root.insert(6)
+root.insert(11)
 root.insert(7)
-root.insert(3)
 root.insert(5)
 print("Inorder")
-root.inorder()
+root.inorder() #DFS
 print("Preorder")
-root.preorder()
-print("Preorder")
-root.postorder()
+root.preorder() #DFS
+print("Postorder")
+root.postorder() #DFS
+print("Levelorder")
+root.levelorder() #BFS
 ```
 
 ### Output
@@ -238,11 +266,14 @@ Inorder
 3 5 7 8 9 
 Preorder 
 8 7 3 5 9
-Preorder
+Postorder
 9 8 7 5 3
+levelorder
+10 11 13 6 7 5
 ```
 
 Credits:
 * [Laurent Luce's Blog](http://www.laurentluce.com/posts/binary-search-tree-library-in-python/)
 * [Data Structures and Algorithms in Python <sub> M H. Goldwasser, R Tamassia, M T. Goodrich </sub>](https://www.oreilly.com/library/view/data-structures-and/9781118290279/)
 * [BacktoBack SWE: Binary Tree Bootcamp: Full, Complete, & Perfect Trees. Preorder, Inorder, & Postorder Traversal](https://www.youtube.com/watch?v=BHB0B1jFKQc&t=206s)
+* [mycodeschool: Binary tree traversal - breadth-first and depth-first strategies](https://www.youtube.com/watch?v=9RHO6jU--GU)
