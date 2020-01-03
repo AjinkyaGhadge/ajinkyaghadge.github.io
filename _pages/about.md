@@ -27,4 +27,4 @@ I also worked at Research Centre Imarat( part of Defense Research and Developmen
 
 ## More about me!
 
-Often, I like to work on some personal projects, often building things from first principles. When lost in deep-though I write poetry(in Hindi and English), some of which you can find on my medium blog. I am game for a jamming session as a vocalist or a guitarist, and have put a few of my songs on soundcloud. To keep in shape, I do run, I like smaller but intense runs of 5-10k(follow me on Strava!) and High-Intensity Interval Training.
+Often, I like to work on some personal projects, often building things from first principles. When lost in deep-though I write poetry(in Hindi and English), some of which you can find on my [medium blog - WriterInMe](https://medium.com/writerinme/). I am game for a jamming session once in a while as a vocalist or a guitarist, and have put a few of my songs on [soundcloud](https://soundcloud.com/ajinkya-ghadge-785378563). To keep in shape, I do run, I like smaller but intense runs of 5-10k([follow me on Strava!](https://www.strava.com/athletes/22013803)) and High-Intensity Interval Training.
