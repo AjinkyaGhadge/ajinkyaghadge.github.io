@@ -1,5 +1,5 @@
 ---
-title: DSA Revision - Priority Queue, Heaps
+title: priority queue, heap the python way
 subtitle: A revision of widely used adaptations of trees for specific problems
 gh-repo: https://github.com/AjinkyaGhadge/Code_Revision
 gh-badge:
