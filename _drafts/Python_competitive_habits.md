@@ -43,6 +43,8 @@ published: true
 * lambda, map and list comprehensions and which to really use
 * fstring
 * Generators for saving memory and time (only suitable for certain situations)
+* understanding and using [callable operators](https://python-reference.readthedocs.io/en/latest/docs/operators/#callables-operators)
+
 
 
 # Tricks:
