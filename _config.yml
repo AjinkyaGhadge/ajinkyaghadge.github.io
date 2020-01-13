@@ -24,7 +24,7 @@ description              : "This is a place where Ajinkya Ghadge, writes about h
 url                      : "https://ajinkyaghadge.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "AjinkyaGhadge/ajinkyaghadge.github.io"
-teaser                   : /_data/images/teaser.jpg"
+teaser                   : "/_data/images/teaser.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/_data/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs              : true #, false (default)
