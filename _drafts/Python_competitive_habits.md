@@ -67,3 +67,10 @@ zip(*mat)
 
 * https://www.geeksforgeeks.org/python-tricks-competitive-coding/
 
+* Use if condition1 & condition2 instead of if condition1: if condition2
+
+* Know how to sort dictionaries by key, value and by value and then key and key and then value
+
+* Sort a list by [nth element in a sub-list](https://stackoverflow.com/questions/17555218/python-how-to-sort-a-list-of-lists-by-the-fourth-element-in-each-list) also look at [this](https://leetcode.com/problems/matrix-cells-in-distance-order/discuss/478365/Python-C%2B%2B-easy-sort-solution) question on leetcode.
+
+* 
