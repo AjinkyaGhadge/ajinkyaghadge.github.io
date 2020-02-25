@@ -1,6 +1,8 @@
 ---
 title: Scene classification using Scene Parsing, NLP and Neural Networks
 subtitle: Converting a scene to a list of objects in the scene, and using the objects to predict the scene category!
+header:
+  teaser: assets/images/682_teaser.png
 ---
 
 

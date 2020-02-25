@@ -15,16 +15,20 @@ layouts_gallery:
 last_modified_at: 2020-01-03T15:46:43-04:00
 toc: true
 ---
-## Summary
+## Education
 
-I am a Graduate student at the College of Computing and Informatics, University of Massachussets-Amherst. I've taken courses focusing on Software Development and Data Science. I am enrolled to the Data Science Track of the CS program. I have worked for two-years, before starting my graduate studies. Please do check the projects that I've worked on recently in the projects section of my website.
+I am a Graduate student at the College of Computing and Informatics, University of Massachussets-Amherst. I've taken courses focusing on Software Development and Data Science. Some of the more notable are Operating Systems Design and Implenetation, Machine Learning, Database design and development, Machine learning in the Real World. I have worked for three-years, before starting my graduate studies. Do check the projects that I've worked on recently in the projects section of my website.
 
 ## Work Experience
 
-I worked as a Software Engineer at Persistent Systems. I worked closely with a ForEx Company supporting their high-volume transactional system and developing/maintaining the backend services. 
+I worked as a Software Engineer at [Persistent Systems](https://www.persistent.com/media/press-releases/q1-fy19-results/). I worked closely with a ForEx Company developing their high-volume transactional system and maintaining the backend services. I worked primarily in Java, but also wrote boiler plate code in Perl, Python. One of the more interesting tasks was to prototype and demonstrate a test driven development system to our team, which was highly appreciated. I designed and developed the DevOps pipeline. I used Jenkins for orchestration, Apache Maven as the dependency manager, and several frameworks like restassured, selenium, apppium to work with the software engineers in test. I also used Jnit, Git for triggering the pipeline from the developers side. I have also worked on updating software componenets within large legacy softwares to improve fault tolerance, performance and maintainability.
 
-I also worked at Research Centre Imarat( part of Defense Research and Development Organization), as a Software Developer in a research project on a contractual basis. Despite the contractual nature, my motivation to work in applied research and serve my country made me sign up for the position. I wore multiple-hats, and worked on creation of datasets( annotation, compression, cleaning), creating machine learning models and maintaining workstation systems for development. I also worked to build software componenets for teams working on embedded platforms for data collection and machine learning inferencing.
+I worked as a Freelance Software Developer and have worked for several clients. One of the most notable is Research Centre Imarat, where I worked in developing the machine learning pipeline and software development. I wore multiple-hats, and worked on creation of datasets( annotation, compression, cleaning), maintaining high-performance server systems used for running machine learning workloads. I also worked to build software componenets for teams working on Nvidia Jetson TX2 platform for data collection and achieving real-time machine learning inferencing. 
+
+My choices have been unconventional, but I have gained a lot of experience working on diverse and challenging projects.
+
+Feel free to contact me at [aghadge@umass.edu](mailto:aghadge@umass.edu) if you want to hire me or simply know more about my work experience!
 
 ## More about me!
 
-Often, I like to work on some personal projects, often building things from first principles. When lost in deep-though I write poetry(in Hindi and English), some of which you can find on my [medium blog - WriterInMe](https://medium.com/writerinme/). I am game for a jamming session once in a while as a vocalist or a guitarist, and have put a few of my songs on [soundcloud](https://soundcloud.com/ajinkya-ghadge-785378563). To keep in shape, I do run, I like smaller but intense runs of 5-10k([follow me on Strava!](https://www.strava.com/athletes/22013803)) and High-Intensity Interval Training.
+Often, I like to work on some personal projects, often building things from first principles. When lost in deep-though I write poetry(in Hindi and English), some of which you can find on my [medium blog - WriterInMe](https://medium.com/writerinme/). I am game for a jamming session once in a while as a vocalist and a guitarist(well just play da!), and have put a few of my song covers on [soundcloud](https://soundcloud.com/ajinkya-ghadge-785378563). To keep in shape, I do run, I like smaller but intense runs of 5-10k([follow me on Strava!](https://www.strava.com/athletes/22013803)) and High-Intensity Interval Training.
