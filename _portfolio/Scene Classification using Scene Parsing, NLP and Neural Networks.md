@@ -78,7 +78,7 @@ In our case, imagine objects like say floor, which will be present in many scene
 
 IDF takes care of it, it is the total number of times an object appears in each of the scenes categories. The image explains this.
 
-![TF-IDF](/assets/images/tfidf.jpg)
+![TF-IDF](assets/images/tfidf.jpg)
 
 Since we have 335 objects and 10 scene categories, we calculate TF for each scene by iterating over 5000 images in training set. This yields a 335 x 10 matrix. IDF on the other hand is calculated for each object across all categories. Hence 335 x 1 sized matrix. We broadcast it into a 335 x 10 and perform element-wise multiplication to obtain the TF-IDF matrix.
 
@@ -86,13 +86,13 @@ Since we have 335 objects and 10 scene categories, we calculate TF for each scen
 
 Aren't the words "airplane" and "runway" related by the underlying context of air travel? Is there a way this context information could be used to add contextual information between objects and scenes? Word vectors in form of Glove and Word2Vec provide a readymade solution to this. We look to incorporate that and then add weights from TF-IDF to further increase its accuraccy. Glove with the twitter300 model that I used resulted in something that is explained below.
 
-![TF-IDF with NLP](/assets/images/tfidfnlp.jpg)
+![TF-IDF with NLP](assets/images/tfidfnlp.jpg)
 
 3. **Neural Network approach**
 
 The NN approach was quite simple as I didnot have to use any convolutions here, and a two-layers network with some non-linearity and Relu() did the job for me.
 
-![Neural Network](/assets/images/nnproject.jpg)
+![Neural Network](assets/images/nnproject.jpg)
 
 ## Testing and Results
 
