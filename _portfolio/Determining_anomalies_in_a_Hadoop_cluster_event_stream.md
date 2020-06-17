@@ -2,7 +2,7 @@
 title: "Determining anomalies in a Hadoop cluster event stream"
 excerpt: "Exstream is a methodology to determine what is the origin of faulty behaviour and produce explanations from an event stream."
 header:
-teaser: assets/images/image645_2.png
+teaser: assets/images/image645_1.png
 ---
 <html>
 <head><meta charset="utf-8" />
