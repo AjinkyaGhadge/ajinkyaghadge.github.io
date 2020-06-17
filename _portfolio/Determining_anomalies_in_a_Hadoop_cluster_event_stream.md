@@ -4,8 +4,6 @@ excerpt: "Exstream is a methodology to determine what is the origin of faulty be
 header:
 teaser: /assets/images/image645_1.png
 ---
-# EXstream: Determining anomalies in a Hadoop cluster event stream.
-
 **Monitoring of the progress of these Hadoop jobs is critical as it servers the software that runs on top of the clusters.**
 
 Production Hadoop cluster tasks:
