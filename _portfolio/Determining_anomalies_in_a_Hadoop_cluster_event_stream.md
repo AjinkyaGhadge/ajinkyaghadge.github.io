@@ -2,9 +2,8 @@
 title: "Determining anomalies in a Hadoop cluster event stream"
 excerpt: "Exstream is a methodology to determine what is the origin of faulty behaviour and produce explanations from an event stream."
 header:
-  teaser: assets/images/image645_2.png
+teaser: assets/images/image645_2.png
 ---
-<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
 
@@ -13130,10 +13129,10 @@ Hadoop system does not provide sufficient monitoring functionality by itself so 
 <h1 id="Main-Approach-Important-Techniques">Main Approach Important Techniques<a class="anchor-link" href="#Main-Approach-Important-Techniques">&#182;</a></h1><p>Rank the features based on a distance function. The distance function will help us know which feature is causing the anomaly. We compare the anomaly interval with a reference interval i.e the difference in the events that occur within each interval.</p>
 <p>Use the distance function to compare the values of a feature during the 2 intervals. These features are ordered in increasing order with a value being assigned to each of them. Ranked them based on how well they separate for any given anomalous window.</p>
 <p>Entropy based distance function uses amount of segmentation in a feature, lets call it segmentation Entropy. Segmentation entropy is the information needed to describe how merged points are segmented by class labels.</p>
-<p><img src="imagepng.png" alt="segmentation"></p>
+<p><img src="/assets/images/image645_1.png" alt="segmentation"></p>
 <p>The actual entropy being used though is the regularized segmentation entropy which is the sum of segmentation entropy and a penalty term for mixed segments.</p>
 <p>The distance function is normalized as the features can be of different sizes. This however is not enough to construct explanations. The feature set is pruned till we get a high quality explanation. For this certain steps such as reward leap filtering, false positive filtering and filtering by correlation clustering are carried out. To build the final explanations, we need to examine the ranges of the features in the anomalous windows and generate the final explanation.</p>
-<p>insert image</p>
+<p><img src="/assets/images/image645_2.png" alt="segmentation"></p>
 
 </div>
 </div>
