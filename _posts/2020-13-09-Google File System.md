@@ -28,11 +28,11 @@ These considerations were for the search engine application, where the aim of go
     c. Access control about clients
 
 3. How reads are done:
-![GFS architecture](/assets/GFS_write.png)
+![GFS architecture](/assets/images/GFS_write.png)
     1. Client asks GFS master for file, GFS master returns the IP address of the nearest chunk server, chunk server and the client can communicate directly.
 
 4. How writes are done:
-![GFS read](/assets/GFS_read.png)
+![GFS read](/assets/images/GFS_read.png)
     1. Ask the master for chunk servers which contain chunks. Master returns list of chunk servers which have more free space. 
     2. The client chooses the closest server from the list, and transfers all data to that replica.
     3. This replica transfers the data to all other replicas.
