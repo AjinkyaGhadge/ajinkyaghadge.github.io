@@ -111,7 +111,7 @@ analytics:
 author:
   name             : "Ajinkya Ghadge"
   avatar           : "/assets/images/Ajinkya.jpg" 
-  bio              : "Masters in Computer Science at UMass. Not a polymath yet, learning Software Development and Machine Learning"
+  bio              : "Masters in Computer Science at UMass. Software Engineer"
   location         : #"UMass-Amherst, MA, USA"
   email            : #"aghadge@umass.edu"
   links:
@@ -124,18 +124,12 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Leetcode"
-      icon: "fas fa-terminal"
-      url: "https://leetcode.com/ghadgeajinkya95/"
     - label: "GitHub"
       icon: "fab fa-github-alt"
       url: "https://github.com/AjinkyaGhadge"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/ajinkyaghadge/"
-    - label: "StackOverflow"
-      icon: "fab fa-stack-overflow"
-      url: "https://stackoverflow.com/users/7390497/ajinkya-ghadge"
 
 # Site Footer
 footer:
