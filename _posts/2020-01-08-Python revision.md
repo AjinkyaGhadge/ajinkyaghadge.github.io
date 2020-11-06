@@ -1,5 +1,5 @@
 ---
-title: Essential python basics for C++/Java developers
+title: Python revision
 subtitle: Some basic stuff about python that is important
 gh-repo: https://github.com/AjinkyaGhadge/Code_Revision
 gh-badge:
@@ -88,4 +88,20 @@ except DivdeByZeroError:
   print("<error message>")
 ```
 
+
+# Other important notes:
+
+1. Lists are mutable, tuples are immutable
+2. Python function are first-class objects, which allows them to be assigned to variables and be passed to functions
+3. PEP-8 is a popular style guide to writing python code
+4. Python has an array datatype as well, needs to be import, can hold elements of same datatype only unlike lists
+5. lambda functions are annonymous functions
+6. An iterable is an object that has an __iter__ method which returns an iterator, or which defines a __getitem__ [method that can take sequential indexes](https://thispointer.com/python-how-to-make-a-class-iterable-create-iterator-class-for-it/) starting from zero (and raises an IndexError when the indexes are no longer valid). So an iterable is an object that you can get an iterator from. An iterator is an object with a __next__  method.
+7. Packing and upacking using *args and **kwargs is a very elegant way to processing in Python. *args unpacks into a tuple, and **kwargs unpacks into a dictionary. It is not neccessary to use those names.
+8. help() is a default method used to print docstring, dir() is a default method that returns all the attributes for an object, very useful for debugging
+9. Also useful for debugging is logging module and debugger
+10. map() function is used to iterate over a list and perform operation on it
+11. python debugger is pdb
+12. Generators are simple functions which return an iterable set of items, one at a time
+13. In Python a variable is not an alias for a location in memory. Rather, it is simply a binding to a Python object
 

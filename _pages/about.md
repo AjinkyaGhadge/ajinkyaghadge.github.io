@@ -17,7 +17,7 @@ toc: true
 ---
 ## Education
 
-I am a Graduate student at the College of Computing and Informatics, University of Massachussets-Amherst. I've taken courses focusing on Software Development and Data Science. Some of the more notable are Software Engineering, Operating Systems Design and Implenetation, Machine Learning, Database design and development, Machine learning in the Real World, Neural Networks, Systems for Data Science. I have worked for three-years, before starting my graduate studies. Do check the projects that I've worked on recently in the projects section of my website.
+I am Ajinkya Ghadge. I am currently a Graduate Student at UMass. I completed my Bachelors in Computer Science in 2016 and worked as a Software Engineer at Persistent Systems for more than a year. I had the opportunity to work in rotation on development, DevOps, support and testing tasks for a leading Foreign Exchange Client. It has provided a great overview of Software Engineering process to me. Before starting my masters, I wanted to explore some other aspects of Computer Science and Software engineering, and I worked as a freelancer on software engineering tasks for machine learning. I took up Graduate studies for the rigorous CS curriculum at UMass and I felt it would help me with longevity in my Software engineering career. 
 
 ## Work Experience
 
