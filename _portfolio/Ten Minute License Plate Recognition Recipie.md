@@ -1,15 +1,10 @@
 ---
-title: Ten Minute License Plate Recognition Recipie
-subtitle: Google is offering quite a lot with its Vision API.
-gh-repo: AjinkyaGhadge/Google-Cloud-based-ALPR
-gh-badge:
-  - star
-  - fork
-  - follow
-tags:
-  - test
-published: true
+title: "Ten Minute License Plate Recognition Recipie"
+excerpt: "Google is offering quite a lot with its Vision API."
+header:
+  teaser: assets/images/alpr.png
 ---
+
 >How it struck me?
 
 I had just completed a simple introductory course by Google on Coursera. After completing a B-Tech project in Image classification using deep learning, i was fascinated to see how powerful Google’s Vision API was. Of course, Microsoft, Amazon and some more companies (Clarifai) had their own versions of doing similar things, but I was broke and Google was generous.
