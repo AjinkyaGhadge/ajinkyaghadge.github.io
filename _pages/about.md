@@ -17,7 +17,7 @@ toc: true
 ---
 ## Education
 
-I am Ajinkya Ghadge. I am currently a Graduate Student at UMass. I completed my Bachelors in Computer Science in 2016 and worked as a Software Engineer at Persistent Systems for more than a year. I had the opportunity to work in rotation on development, DevOps, support and testing tasks for a leading Foreign Exchange Client. It has provided a great overview of Software Engineering process to me. Before starting my masters, I wanted to explore some other aspects of Computer Science and Software engineering, and I worked as a freelancer on software engineering tasks for machine learning. I took up Graduate studies for the rigorous CS curriculum at UMass and I felt it would help me with longevity in my Software engineering career. 
+I am Ajinkya Ghadge. I am currently a Graduate Student at UMass. I completed my Bachelors in Computer Science in 2016 and worked as a Software Engineer at Persistent Systems for more than a year. I had the opportunity to work towards development and automation of simulation and testing platform used by a leading ForEx bank. It has provided a great overview of Software Engineering process to me. Before starting my masters, I wanted to explore some other aspects of Computer Science and Software engineering, and I worked as a freelancer on software engineering tasks for machine learning. I took up Graduate studies for the rigorous CS curriculum at UMass and I felt it would help me with longevity in my Software engineering career. 
 
 ## Work Experience
 
