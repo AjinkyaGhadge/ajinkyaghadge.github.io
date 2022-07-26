@@ -64,7 +64,7 @@ published: true
 
 # Conditionals
 
-* if-else
+* [if-else](https://www.scaler.com/topics/python/python-if-else-statement/)
 * if elif else
 * for, while
 * break, continue
